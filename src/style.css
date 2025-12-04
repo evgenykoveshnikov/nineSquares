@@ -78,11 +78,15 @@ button:focus-visible {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 .blocks-item p {
     padding: 0px;
     margin: 0;
+    font-weight: 700;
+    color: #333333;
+    font-size: 1.3rem;
 }
 
 .blocks-item input {
@@ -91,11 +95,16 @@ button:focus-visible {
     width: 90%;
 }
 
+.active {
+    border: 2px solid red;
+}
+
 .container {
     display: flex;
     align-items: center;
     gap: 24px;
 }
+
 
 
 @media (prefers-color-scheme: light) {
